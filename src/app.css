@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Roboto";
+    background-color: #181618;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 40px;
+    color: #edf0f1;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    position: relative;
+}
+
+.links li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color: #edf0f1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all 0.4s;
+}
+
+.links li a:hover::after {
+    transform: scaleX(1);
+}
+
+.btn {
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    background-color: #a5f2ff;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-empty {
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #a5f2ff;
+    border-color: #a5f2ff;
+    outline: none;
+    border-radius: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 300px 10px 300px;
+}
+
+.header div h1 {
+    font-size: 60px;
+    color: #edf0f1;
+    width: 600px;
+}
+
+.header div p {
+    font-size: 16px;
+    color: #edf0f1;
+    width: 500px;
+    line-height: 25px;
+}
+
+
+.card {
+    border-radius: 5px;
+    background-color: #1c1d1d;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 600px;
+}
