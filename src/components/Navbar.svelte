@@ -1,5 +1,6 @@
 <script>
     import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
+    import Switch from './Switch.svelte';
 </script>
 
 <main>
@@ -15,7 +16,7 @@
             </ul>
             <div>
                 <button class="btn-empty">GitHub</button>
-                <button class="btn">Leetcode</button>
+                <button class="btn">LeetCode</button>
             </div>
         </nav>
     </div>
