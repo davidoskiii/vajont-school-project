@@ -1,5 +1,6 @@
 <script>
     import Fa from 'svelte-fa'
+    import Menu from './Menu/Menu.svelte';
     import { faGithub } from '@fortawesome/free-brands-svg-icons';
     import { faInstagram } from '@fortawesome/free-brands-svg-icons';
     import { faDiscord } from '@fortawesome/free-brands-svg-icons';
@@ -10,7 +11,7 @@
         <div class="footer-content">
             <div class="footer-text">
                 <h1>Support</h1>
-                <p>For questions and problems send an email to davide.mascherin9@gmail.com</p>
+                <p>For questions and help send an email to davide.mascherin9@gmail.com</p>
             </div>
             <div class="footer-contacts">
                 <div class="footer-icons">

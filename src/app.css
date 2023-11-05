@@ -3,13 +3,9 @@
 :root {
     --light: #edf0f1;
     --dark: #181618;
+    --dark-100: #1c1d1d;
     --primary: #a8dadc;
-}
-
-.dark-mode {
-    --light: #181618; /* Invert light color to dark */
-    --dark: #edf0f1;  /* Invert dark color to light */
-    --primary: #a8dadc; /* Keep the same primary color */
+    --secondary: #132c1c;
 }
 
 * {
@@ -21,15 +17,77 @@ body {
     background-color: var(--dark);
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+
 h1 {
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--light);
 }
 
 p {
+    line-height: 22.5px;
     font-size: 1rem;
     color: var(--light);
+}
+
+/* MENU */
+
+.dropdown {
+    cursor: pointer;
+    height: 0px;
+}
+
+.dropdown p {
+    display: inline-block;
+}
+
+.menu {
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    max-height: 286px;
+    padding: 10px;
+    background: var(--dark);
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    appearance: none;
+}
+
+.menu::-webkit-scrollbar {
+    width: 11px;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+}
+
+.dropdown:hover > .menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 /* TOAST */
@@ -37,7 +95,8 @@ p {
 #toast-box {
     position: fixed;
     bottom: 5px;
-    right: 40.5%;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -48,7 +107,6 @@ p {
     opacity: 0;
     visibility: hidden;
     border-radius: 12px;
-    max-width: 320px;
     width: 320px;
     padding: 10px;
     background-color: var(--dark);
@@ -73,7 +131,7 @@ p {
     height: 4px;
     transform: scaleX(0);
     transform-origin: left;
-    background: linear-gradient(to right, var(--dark), #a8dadc);
+    background: linear-gradient(to right, var(--dark), var(--primary));
     animation: progress 4s linear forwards;
 }
 
@@ -259,6 +317,18 @@ li, a {
     width: 500px;
 }
 
+.header p {
+    line-height: 30px;
+    font-size: 1.1rem;
+    color: var(--light);
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--light);
+}
+
 .card h1 {
     font-size: 60px;
     color: var(--light);
@@ -294,6 +364,28 @@ li, a {
 
 /* HISTORY */
 
+.history {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 830px;
+    margin: 0px 160px 0px 160px;
+}
+
+.text-div {
+    flex: 80%; /* 80% of the available space */
+    padding: 100px 200px 0px 100px;
+}
+
+.vertical-timeline {
+    flex: 20%; /* 20% of the available space */
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
 
 
 /* FOOTER */
@@ -330,6 +422,10 @@ footer{
     font-size: 14px;
 }
 
+.footer-text {
+    display: inline-block;
+}
+
 .footer-contacts{
     list-style: none;
     display: flex;
@@ -358,12 +454,12 @@ footer{
 
 .footer-bottom{
     background: var(--dark);
-    width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
 
 .footer-bottom p{
+    display: inline-block;
     font-size: 14px;
     word-spacing: 2px;
 }
@@ -371,4 +467,69 @@ footer{
 .footer-bottom span{
     color: var(--primary);
     font-weight: 500;
+}
+
+/* TIMELINES */
+
+.vertical-timeline-line {
+    background: linear-gradient(to top, var(--dark) 10%, var(--primary) 40%, var(--primary) 80%, var(--dark) 100%);
+    width: 6px;
+    height: 2000px;
+}
+
+.timeline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.timeline::after {
+    content: '';
+    background-color: var(--primary);
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0074d9;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: scale(1);
+    transition: all 0.1s linear;
+}
+
+.dot:hover {
+    transform: scale(1.5);
+}
+
+/* Add custom styles to the dots, such as different colors or years */
+.dot.year-1990 {
+    background-color: #0074d9;
+}
+
+.dot.year-2000 {
+    background-color: #39cccc;
+}
+
+.dot.year-2010 {
+    background-color: #ff851b;
+}
+
+.dot.year-2020 {
+    background-color: var(--secondary);
+}
+
+.dot.year-2030 {
+    background-color: #3d9970;
 }

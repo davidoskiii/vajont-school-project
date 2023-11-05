@@ -1,6 +1,7 @@
 <script>
     import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
     import Card from "./Card.svelte";
+    import Menu from "./Menu/Menu.svelte";
 </script>
 
 <main>
@@ -10,7 +11,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint id dolor magnam sunt praesentium corrupti obcaecati ea, soluta, a minus maxime, molestias accusamus possimus numquam non quas doloribus unde fuga.</p>
     </div>
 </main>
-<section use:scrollRef={'introduzione'}></section>
 <section use:scrollRef={'about'}></section>
 
 <style>
