@@ -6,9 +6,9 @@
     <div class="centered-flex">
         <div class="timeline">
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a use:scrollTo={'1990'} class="dot year-1990">1990</a>
+            <a use:scrollTo={{ref: '1955', offset: -250}} class="dot year-1955">1955</a>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a use:scrollTo={'introduzione'} class="dot year-2000">2000</a>
+            <a use:scrollTo={{ref: '1957', offset: -250}} class="dot year-1957">1957</a>
             <!-- svelte-ignore a11y-missing-attribute -->
             <a use:scrollTo={'introduzione'} class="dot year-2010">2010</a>
             <!-- svelte-ignore a11y-missing-attribute -->

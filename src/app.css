@@ -328,7 +328,7 @@ a {
   margin-bottom:0
 }
 .carousel-container {
-  width:  600px
+  width:  600px;
 }
 .image-carousel {
   border-radius:  10px;
@@ -338,7 +338,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .text-left {
@@ -462,8 +462,8 @@ footer {
 .dot:hover {
     transform:scale(1.61803398875)
 }
-.dot.year-1990,
-.dot.year-2000,
+.dot.year-1955,
+.dot.year-1957,
 .dot.year-2010,
 .dot.year-2020,
 .dot.year-2030 {

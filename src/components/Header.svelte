@@ -11,7 +11,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint id dolor magnam sunt praesentium corrupti obcaecati ea, soluta, a minus maxime, molestias accusamus possimus numquam non quas doloribus unde fuga.</p>
     </div>
 </main>
-<section use:scrollRef={'about'}></section>
 
 <style>
 
