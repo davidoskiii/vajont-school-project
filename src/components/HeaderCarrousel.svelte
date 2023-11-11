@@ -1,32 +1,40 @@
-<script>
+<script lang="ts">
     import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
     import Navbar from "./Navbar.svelte";
     import Header from "./Header.svelte";
-    import Carousel from 'svelte-carousel'
+
+    import { onMount } from 'svelte';
+
+    let backgroundIndex = 1;
+
+    onMount(() => {
+    const backgroundDiv = document.querySelector('.background-1');
+
+    const interval = setInterval(() => {
+        // Remove previous background class
+        backgroundDiv.classList.remove(`background-${backgroundIndex}`);
+
+        // Increment the index or reset to 1 if it's the last class
+        backgroundIndex = (backgroundIndex % 3) + 1;
+
+        // Add the new background class
+        backgroundDiv.classList.add(`background-${backgroundIndex}`);
+    }, 4000);
+
+    // Clear the interval when the component is destroyed
+    return () => clearInterval(interval);
+    });
 </script>
 
 <main>
     <section use:scrollRef={'introduzione'}></section>
-    <Carousel swiping={false} arrows={false} autoplay autoplayDuration={5000} autoplayProgressVisible>
+    <!-- I have other classes as background-2 and background-3 -->
         <div class="background-1">
             <Navbar/>
             <div class="content">
                 <Header/>
             </div>
         </div>
-        <div class="background-2">
-            <Navbar/>
-            <div class="content">
-                <Header/>
-            </div>
-        </div>
-        <div class="background-3">
-            <Navbar/>
-            <div class="content">
-                <Header/>
-            </div>
-        </div>
-    </Carousel>
 </main>
 
 <style>

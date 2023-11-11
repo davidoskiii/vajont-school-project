@@ -293,23 +293,36 @@ a {
   color:var(--light);
   background-color:#0000
 }
+
 .background-1 {
-  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://images.unsplash.com/photo-1626285265896-49c3abb3952e?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-size:cover;
-  background-position:bottom;
-  z-index:-1
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+    url(https://images.unsplash.com/photo-1626285265896-49c3abb3952e?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: bottom;
+  z-index: -1;
 }
+
 .background-2 {
-  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00100269.jpg);
-  background-size:cover;
-  background-position:center;
-  z-index:-1
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+    url(https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00100269.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
+
 .background-3 {
-  background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://upload.wikimedia.org/wikipedia/commons/8/8e/Diga_del_Vajont_.jpg);
-  background-size:cover;
-  z-index:-1
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+    url(https://upload.wikimedia.org/wikipedia/commons/8/8e/Diga_del_Vajont_.jpg);
+  background-size: cover;
+  z-index: -1;
 }
+
+.background-1,
+.background-2,
+.background-3 {
+  transition: background 2s ease-in-out;
+}
+
 .history {
   display:flex;
   align-content:center;
