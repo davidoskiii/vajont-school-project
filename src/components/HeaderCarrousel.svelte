@@ -27,7 +27,6 @@
 </script>
 
 <main>
-    <section use:scrollRef={'introduzione'}></section>
     <!-- I have other classes as background-2 and background-3 -->
         <div class="background-1">
             <Navbar/>

@@ -9,9 +9,9 @@
             <h1 class="logo"><a class="logo" href="/">Diga del Vajont</a></h1>
             <ul class="links">
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li><a use:scrollTo={{ref: 'introduzione-storia', offset: -55}}>Storia</a></li>
+                <li><a use:scrollTo={{ref: 'storia', offset: -55}}>Storia</a></li>
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li><a use:scrollTo={'introduzione-causa'}>Causa</a></li>
+                <li><a use:scrollTo={'causa'}>Causa</a></li>
                 <li><a href="/contact">Contattami</a></li>
             </ul>
             <div>

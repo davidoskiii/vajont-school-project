@@ -331,7 +331,7 @@ a {
   padding:0 160px
 }
 .history-paragraph {
-  margin-bottom:200px
+  margin-bottom:50px
 }
 .history-paragraph-start {
   margin-bottom:60px
@@ -438,11 +438,7 @@ footer {
   display:flex;
   align-items:center
 }
-.vertical-timeline-line {
-  background:linear-gradient(to top,var(--dark) 20%,var(--primary) 40%,var(--primary) 80%,var(--dark) 100%);
-  width:6px;
-  height:2000px
-}
+
 .timeline {
   position:relative;
   display:flex;
@@ -451,6 +447,7 @@ footer {
   width:100%;
   margin-bottom:100px
 }
+
 .timeline:after {
   content:"";
   background:var(--primary);
@@ -459,11 +456,12 @@ footer {
   position:absolute;
   z-index:-1
 }
+
 .dot {
     width:50px;
     height:50px;
     border-radius:50%;
-    background-color:#0074d9;
+    background-color:var(--primary);
     margin:0 10px;
     display:flex;
     align-items:center;
@@ -475,10 +473,4 @@ footer {
 .dot:hover {
     transform:scale(1.61803398875)
 }
-.dot.year-1955,
-.dot.year-1957,
-.dot.year-2010,
-.dot.year-2020,
-.dot.year-2030 {
-    background-color:var(--primary)
-}
+
