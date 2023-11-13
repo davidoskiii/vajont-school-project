@@ -15,8 +15,12 @@
                 <li><a href="/contact">Contattami</a></li>
             </ul>
             <div>
-                <button class="btn-empty">GitHub</button>
-                <button class="btn">LeetCode</button>
+                <a href="https://it.wikipedia.org/wiki/Diga_del_Vajont">
+                    <input class="btn-empty" type="button" value="Wikipedia" />
+                </a>
+                <a href="https://github.com/davidoskiii/vajont-school-project">
+                    <input class="btn" type="button" value="Source Code" />
+                </a>
             </div>
         </nav>
     </div>

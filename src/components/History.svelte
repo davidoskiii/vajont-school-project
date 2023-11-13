@@ -74,7 +74,7 @@
                 </div>
             </div>
             </section>
-            <section use:scrollRef={'1959'}>
+            <section use:scrollRef={'2023'}>
                 <div class="history-paragraph-image">
                     <div class="sibling-image m-5">
                         <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">

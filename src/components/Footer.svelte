@@ -15,9 +15,9 @@
             </div>
             <div class="footer-contacts">
                 <div class="footer-icons">
-                    <a href="https://github.com/davidoskiii/vajont-school-project"><Fa size="1.5x" icon={faGithub}/></a>
+                    <a href="https://github.com/davidoskiii"><Fa size="1.5x" icon={faGithub}/></a>
                     <a href="https://www.instagram.com/_davidoskiii/"><Fa size="1.5x" icon={faInstagram}/></a>
-                    <a href="/"><Fa size="1.5x" icon={faDiscord}/></a>
+                    <a href="https://discord.gg/ESSVsYjB"><Fa size="1.5x" icon={faDiscord}/></a>
                 </div>
             </div>
             <div class="footer-bottom">
