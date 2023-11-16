@@ -16,11 +16,12 @@
                         <p>Prima della costruzione della diga, la Valle del Vajont era un crocevia di storie millenarie. In questa sezione, esploreremo Longarone prima del 1955, vivendo la vita di una comunità ignara del destino imminente. Attraverso gli anni che precedettero la costruzione della diga, assaporiamo le speranze e sfide di una popolazione che vedeva nel progresso simboleggiato dalla diga un futuro radioso. Saremo testimoni degli eventi che plasmarono il destino della Valle del Vajont, una narrazione che sfiora grandezza e inquietudine, offrendo lezioni per il presente e il futuro.</p>
                     </div>
                     <div class="carousel-container m-5">
-                        <Carousel swiping={false} autoplay autoplayDuration={2000}>
+                        <Carousel swiping={false} autoplay autoplayDuration={3500}>
                             <img class="image-carousel" src="https://www.rainews.it/cropgd/686x453/dl/img/2023/9/30/1696079578108_VistadellagoladelVajontprimadellacostruzionedelladiga_nel__WIKIPEDIA.jpg" alt="longarone">
-                            <img class="image-carousel" src="https://www.rainews.it/cropgd/641x453/dl/img/2023/9/30/1696081167334_Longarone_prima_della_tragediaANSABD.JPG" alt="">
-                            <img class="image-carousel" src="https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00101051.jpg" alt="elicottero disastro">
-                            <img class="image-carousel" src="https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00101050.jpg" alt="elicottero disastro">
+                            <img class="image-carousel" src="http://download.kataweb.it/mediaweb/image/brand_corrierealpi/2013/09/08/1378650462808_3.jpg" alt="">
+                            <img class="image-carousel" src="https://live.staticflickr.com/2670/3963950080_3d3ed9c7fb_c.jpg" alt="elicottero disastro">
+                            <img class="image-carousel" src="https://enasc.it/wp-content/uploads/2021/10/R-2.jpg" alt="elicottero disastro">
+                            <img class="image-carousel" src="https://services.meteored.com/img/article/vajont-60-anni-onda-enorme-scavalca-diga-alpi-1696749292604_1024.jpg" alt="elicottero disastro">
                         </Carousel>
                     </div>
                 </div>
@@ -29,7 +30,7 @@
             <section use:scrollRef={'1955'}>
                 <div class="history-paragraph-image">
                     <div class="sibling-image m-5">
-                        <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                        <img class="image-carousel rounded-image" src="https://www.rainews.it/cropgd/641x453/dl/img/2023/9/30/1696081167334_Longarone_prima_della_tragediaANSABD.JPG" alt="elicottero disastro">
                     </div>
                     <div class="m-5">
                         <h1>1955: Le Radici di Longarone </h1>
@@ -44,14 +45,14 @@
                         <p>Il 1957 vede il via alla costruzione della Diga del Vajont, trasformando Longarone in un cantiere frenetico. Mentre la struttura cresce, l'entusiasmo per il progresso si intreccia con crescenti preoccupazioni sulla sicurezza. La comunità assiste con orgoglio alla nascita di un'imponente opera idroelettrica, ma dietro la facciata emergono tensioni e scelte tecniche che avranno conseguenze drammatiche negli anni a venire.</p>
                     </div>
                     <div class="sibling-image m-5">
-                        <VideoEmblem/>
+                        <VideoEmblem url="https://drive.google.com/file/d/1fgHm8SLvFRMaeXDK7a2SNFGTOekAigdF/preview"/>
                     </div>
                 </div>
             </section>
             <section use:scrollRef={'1959'}>
                 <div class="history-paragraph-image">
                     <div class="sibling-image m-5">
-                        <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                        <img class="rounded-image" src="https://www.gedistatic.it/content/gnn/img/corrierealpi/2023/09/25/184451229-e711c018-33e7-40d2-86d3-1627d6f8fde2.jpg?webp" alt="elicottero disastro">
                     </div>
                     <div class="m-5">
                         <h1>1959: Crescita e Sfide</h1>
@@ -62,12 +63,12 @@
             <section use:scrollRef={'1963'}>
             <div class="history-paragraph centered-flex">
                 <div class="m-5">
-                    <h1>La Tragedia del Vajont: Quando la Montagna Tremò</h1>
+                    <h1>1963: Una Tragedia Inimmaginabile</h1>
                     <p>Nella storia del Vajont, uno dei disastri più devastanti della storia italiana, la natura si è scontrata con l'ingegno umano in una tragedia inimmaginabile. Questo racconto esplora gli eventi che hanno portato al crollo della montagna del Vajont nel 1963, provocando una delle peggiori catastrofi della storia moderna. Dalle cause alla devastazione e alle conseguenze, questa storia è un ricordo doloroso delle vite perdute e delle lezioni apprese dall'errore umano.</p>
                 </div>
                 <div class="carousel-container m-5">
                     <Carousel swiping={false} autoplay autoplayDuration={2000}>
-                        <img class="image-carousel" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                        <img class="image-carousel" src="https://www.skuola.net/news_foto/2018/vajont.jpg" alt="elicottero disastro">
                         <img class="image-carousel" src="https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00101051.jpg" alt="elicottero disastro">
                         <img class="image-carousel" src="https://www.raicultura.it/dl/img/2019/10/04/1570203895060_h_00101050.jpg" alt="elicottero disastro">
                     </Carousel>
@@ -77,11 +78,11 @@
             <section use:scrollRef={'2023'}>
                 <div class="history-paragraph-image">
                     <div class="sibling-image m-5">
-                        <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                        <img class="image-carousel rounded-image" src="https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2023/10/iStock-1192444134.jpeg" alt="elicottero disastro">
                     </div>
                     <div class="m-5">
-                        <h1>Viaggio nel Passato: La valle del disastro</h1>
-                        <p>Entra nel cuore di una delle pagine più oscure della storia italiana. Scopri la narrazione completa del disastro del Vajont, una tragedia che ha sconvolto il mondo nel 1963. Attraverso una sequenza cronologica dettagliata e testimonianze dirette, questa sezione rivelerà gli eventi che hanno portato a una catastrofe senza precedenti, gettando luce sui protagonisti, le decisioni cruciali e le conseguenze durature che hanno segnato questa epocale tragedia.</p>
+                        <h1>Oggi: La Diga e la Valle del Vajont nel Nuovo Millennio</h1>
+                        <p>La Diga del Vajont, emblema dell'ingegneria degli anni '50, oggi si erge maestosa nella Valle come memoria vivente. Attraverso costanti lavori di manutenzione, la Diga garantisce sicurezza e continua ad affascinare visitatori con la sua imponenza. La Valle, segnata dalla tragedia del 1963, è diventata un luogo di riflessione e turismo, con sentieri panoramici che offrono viste spettacolari. Monumenti commemorativi e musei onorano la storia, trasmettendo un messaggio di resilienza e speranza nell'affrontare il passato.</p>
                     </div>
                 </div>
             </section>

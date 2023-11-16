@@ -1,6 +1,5 @@
 <script>
     import Fa from 'svelte-fa'
-    import Menu from './Menu/Menu.svelte';
     import { faGithub } from '@fortawesome/free-brands-svg-icons';
     import { faInstagram } from '@fortawesome/free-brands-svg-icons';
     import { faDiscord } from '@fortawesome/free-brands-svg-icons';

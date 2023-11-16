@@ -13,15 +13,31 @@ body {
     overflow-x:hidden;
     background-color:var(--dark)
 }
+
 body::-webkit-scrollbar {
-    width:8px
+  display: none;
 }
+
+/* body::-webkit-scrollbar {
+    width:8px;
+    transition: transform 0.3s;
+}
+
+body::-webkit-scrollbar:hover {
+  width: 12px
+}
+
+body::-webkit-scrollbar-thumb:has(::-webkit-scrollbar:hover) {
+  width: 12px
+}
+
+
 body::-webkit-scrollbar-thumb {
     background:gray;
     border-radius:10px;
     border:2px solid transparent;
     background-clip:padding-box
-}
+} */
 h1 {
     font-weight:600;
     font-size:2rem;
@@ -345,6 +361,9 @@ a {
 }
 .image-carousel {
   border-radius:  10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .history-paragraph-image {
@@ -360,6 +379,7 @@ a {
 
 .rounded-image {
   width: 600px;
+  border-radius: 10px;
 }
 
 .start-history {

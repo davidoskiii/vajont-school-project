@@ -1,110 +1,77 @@
 <script>
-
+    import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
+    import Carousel from 'svelte-carousel'
+    import VideoEmblem from './VideoEmblem.svelte';
+    import Section from './Section.svelte';
 </script>
 
 <main>
-    <div class="start-section">
-        <div class="text-div-section">
-            <h1>La visita della diga</h1>
-            <p>Da quasi 20 anni, la diga è stata riaperta per consentire al pubblico di visitare questo luogo. Infatti, dall’estate del 2002, l’ENEL, proprietaria della struttura, ha concesso alle associazioni locali di condurre delle visite guidate.</p>
-            <p>La visita dura circa 1 ora e ha un costo modico. Gli Informatori della Memoria, ovvero dei volontari di Erto, Casso e Longarone, ripercorrono con il pubblico tutta la storia della diga, dalla sua ideazione, alle caratteristiche, fino alla dettagliata spiegazione dei tragici eventi del 1963. Durante la visita si percorre la sommità della chiusa fino a raggiungerne l’altra estremità.</p>
-            <ul>
-                <li>
-                    <span class="dot"></span><p>Località: Erto e Casso</p>
-                </li>
-                <li>
-                    <span class="dot"></span><p>Parcheggio: a 5 minuti di camminata dalla diga</p>
-                </li>
-                <li>
-                    <span class="dot"></span><p>Costo della visita: 10 euro circa</p>
-                </li>
-                <li>
-                    <span class="dot"></span><p>Durata della visita: 50 minuti</p>
-                </li>
-                <li>
-                    <span class="dot"></span><p>Apertura al pubblico: da giugno a ottobre, dalle 10 alle 17</p>
-                </li>
-            </ul>
-        </div>
-        <div class="image-div-section">
-            <img class="image-section" src="https://explorerfvg.com/luoghi/wp-content/uploads/diga-del-vajont-explorerfvg-19.jpg" alt="">
+    <Section/>
+    <div class="cause">
+        <div class="text-div">
+            <section use:scrollRef={'causa'}>
+                <h2>Causa</h2>
+                <div class="history-paragraph-start start-history m-5">
+                    <div class="m-5">
+                        <h1>Intro causa</h1>
+                        <p>In questa sezione spiegheremo le varie condizioni geologiche che causarono il disastro, e come coloro che scoprirono ciò venivano silenziati, causando l'evitabile tragedia. Daremo uno sguardo alla formazione del terreno, la paleofrana e frana che causarono questo catastrofico evento. </p>
+                    </div>
+                </div>
+            </section>
+            <section use:scrollRef={'..'}>
+                <div class="history-paragraph-image">
+                    <div class="m-5">
+                        <h1>Scelta del Territorio</h1>
+                        <p>Entra nel cuore di una delle pagine più oscure della storia italiana. Scopri la narrazione completa del disastro del Vajont, una tragedia che ha sconvolto il mondo nel 1963. Attraverso una sequenza cronologica dettagliata e testimonianze dirette, questa sezione rivelerà gli eventi che hanno portato a una catastrofe senza precedenti, gettando luce sui protagonisti, le decisioni cruciali e le conseguenze durature che hanno segnato questa epocale tragedia. he causarono il disastro, e come coloro che scoprirono ciò venivano silenziati, causando l'evitabile tragedia. Daremo uno sguardo alla formazione del terreno, della</p>
+                    </div>
+                    <div class="sibling-image m-5">
+                        <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                    </div>
+                </div>
+            </section>
+            <section use:scrollRef={'....'}>
+                <div class="history-paragraph-image">
+                    <div class="sibling-image m-5">
+                        <img class="image-carousel rounded-image" src="https://media-assets.wired.it/photos/6523ca3b7ff82f5e7241bda0/16:9/w_1920,c_limit/158986304" alt="elicottero disastro">
+                    </div>
+                    <div class="m-5">
+                        <h1>Gestione Critica della situazione</h1>
+                        <p>Il 1959 segna un periodo di crescita accelerata per Longarone, alimentato dalla costruzione della Diga del Vajont. L'espansione economica porta nuove opportunità, ma anche sfide cruciali. La comunità affronta il dilemma tra progresso e preservazione delle radici culturali, mentre emergono preoccupazioni sulla sicurezza e sostenibilità ambientale. Questo capitolo della storia del Vajont evidenzia le tensioni dinamiche tra modernizzazione e la salvaguardia di una identità comunitaria in evoluzione.</p>
+                    </div>
+                </div>
+            </section>
+            <section use:scrollRef={'.'}>
+                <div class="history-paragraph-image">
+                    <div class="m-5">
+                        <h1>Paleofrana e Analisi Geologica</h1>
+                        <p>Longarone, incantevole borgo ai piedi delle montagne, già prima del 1955 respirava la sua storia intrisa di tradizioni e comunità unite. La vita ruotava intorno alle colture, alle serate in piazza, e ai legami familiari. Tuttavia, l'arrivo degli anni '50 portò l'ombra imponente della Diga del Vajont, preludio a una trasformazione che avrebbe ridefinito per sempre il destino di questo idilliaco paesino.</p>
+                    </div>
+                    <div class="sibling-image m-5">
+                        <img class="image-carousel rounded-image" src="https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2021/10/immagine-1-argilla-1.jpg?im=Resize,width=570;" alt="elicottero disastro">
+                    </div>
+                </div>
+            </section>
+            <section use:scrollRef={'...'}>
+                <div class="history-paragraph-image">
+                    <div class="sibling-image m-5">
+                        <VideoEmblem url="https://drive.google.com/file/d/1cKUY5uFmX3n8Tys5AgAWZw7bxMi42Rc0/preview"/>
+                    </div>
+                    <div class="m-5">
+                        <h1>Scivolamento della Roccia nella Diga</h1>
+                        <p>Il 1957 vede il via alla costruzione della Diga del Vajont, trasformando Longarone in un cantiere frenetico. Mentre la struttura cresce, l'entusiasmo per il progresso si intreccia con crescenti preoccupazioni sulla sicurezza. La comunità assiste con orgoglio alla nascita di un'imponente opera idroelettrica, ma dietro la facciata emergono tensioni e scelte tecniche che avranno conseguenze drammatiche negli anni a venire.</p>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </main>
 
 <style>
-    .dot {
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        background-color: #a8dadc;
-    }
-
-    .image-section {
-        border-radius: 10px;
-        border-style: solid;
-        border-width: 10px 10px 10px 10px;
-        border-color: #edf0f1;
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
-    }
-    .image-div-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-right: 300px;
-        margin: 30px;
-        height: 100%;
-        width: 25%;
-    }
-
-    .text-div-section {
-        justify-content: center;
-        display: flex;
-        padding: 0px 10px 0px 10px;
-        flex-direction: column;
-        margin-left: 300px;
-        margin: 30px;
-        height: 100%;
-        width: 30%;
-    }
-
-    /* .text-div-section h1::first-letter {
-        font-size: calc(2rem + 6px);
-    } */
-
-
-    .text-div-section p {
-        line-height: 25px;
-    }
-
-
-    .text-div-section ul {
-        padding-left: 10px;
-        list-style: none;
-    }
-
-    .text-div-section li {
-        height: 45px;
-        margin-left: -1rem;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .start-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://explorerfvg.com/luoghi/wp-content/uploads/diga-del-vajont-landscape-explorerfvg-3.jpg);
-        opacity: 0.85;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        width: 100%;
-        height: 800px;
-        margin-top: 100px;
-        clip-path: polygon(0% 0%,26% 2%,53% 0%,80% 3%,100% 0%,100% 100%,73% 97%,52% 100%,20% 98%,0% 100%);
-        z-index: -1;
+    .cause {
+        display:flex;
+        align-content:center;
+        justify-content:center;
+        text-align:center;
+        padding:0 160px
     }
 </style>

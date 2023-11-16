@@ -1,10 +1,10 @@
 <script>
-
+    export let url
 </script>
 
 <main>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <iframe class="video" src="https://drive.google.com/file/d/1cKUY5uFmX3n8Tys5AgAWZw7bxMi42Rc0/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </main>
 
 <style>
