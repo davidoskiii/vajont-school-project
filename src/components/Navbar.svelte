@@ -17,7 +17,7 @@
             </ul>
             <div>
                 <a href="contact">
-                    <input class="btn-empty" type="button" value="Contact Me" />
+                    <input class="btn-empty" type="button" value="Contattami" />
                 </a>
                 <a href="https://github.com/davidoskiii/vajont-school-project">
                     <input class="btn" type="button" value="Source Code" />
