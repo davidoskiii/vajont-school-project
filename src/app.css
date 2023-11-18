@@ -279,7 +279,7 @@ a {
   height:830px;
   margin:0 300px
 }
-.card {
+.card-notused {
   display:flex;
   flex-direction:column;
   border-radius:5px;

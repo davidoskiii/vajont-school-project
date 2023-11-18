@@ -16,8 +16,8 @@
                 <li><a use:scrollTo={{ref: 'testimonianze', offset: -55, duration: 2000}}>Testimonianze</a></li>
             </ul>
             <div>
-                <a href="https://it.wikipedia.org/wiki/Diga_del_Vajont">
-                    <input class="btn-empty" type="button" value="Wikipedia" />
+                <a href="contact">
+                    <input class="btn-empty" type="button" value="Contact Me" />
                 </a>
                 <a href="https://github.com/davidoskiii/vajont-school-project">
                     <input class="btn" type="button" value="Source Code" />
