@@ -1,6 +1,6 @@
 <script>
     import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
-    import HorizzontalTimeline from "./Timelines/HorizzontalTimeline.svelte";
+    import HorizzontalTimeline from "./HorizzontalTimeline.svelte";
     import Carousel from 'svelte-carousel'
     import VideoEmblem from './VideoEmblem.svelte';
 </script>
@@ -8,12 +8,12 @@
 <main>
     <div class="history">
         <div class="text-div">
-            <section use:scrollRef={'storia'}>
-                <h2>Storia</h2>
+            <section use:scrollRef={'date'}>
+                <h2>Date Principali</h2>
                 <div class="history-paragraph-start start-history m-5">
                     <div class="m-5">
-                        <h1>Viaggio nel Passato: La valle prima della diga</h1>
-                        <p>Prima della costruzione della diga, la Valle del Vajont era un crocevia di storie millenarie. In questa sezione, esploreremo Longarone prima del 1955, vivendo la vita di una comunità ignara del destino imminente. Attraverso gli anni che precedettero la costruzione della diga, assaporiamo le speranze e sfide di una popolazione che vedeva nel progresso simboleggiato dalla diga un futuro radioso. Saremo testimoni degli eventi che plasmarono il destino della Valle del Vajont, una narrazione che sfiora grandezza e inquietudine, offrendo lezioni per il presente e il futuro.</p>
+                        <h1>Introduzione</h1>
+                        <p>In questa sezione, ci apprestiamo a tracciare un percorso temporale che ci condurrà attraverso gli eventi cruciali legati alla tragica vicenda del Vajont. Le principali date selezionate rappresentano punti chiave lungo questa dolorosa cronologia, offrendo una visione dettagliata del susseguirsi degli avvenimenti che hanno portato alla catastrofe della diga.</p>
                     </div>
                     <div class="carousel-container m-5">
                         <Carousel swiping={false} autoplay autoplayDuration={3500}>
@@ -21,7 +21,7 @@
                             <img class="image-carousel" src="http://download.kataweb.it/mediaweb/image/brand_corrierealpi/2013/09/08/1378650462808_3.jpg" alt="">
                             <img class="image-carousel" src="https://live.staticflickr.com/2670/3963950080_3d3ed9c7fb_c.jpg" alt="elicottero disastro">
                             <img class="image-carousel" src="https://enasc.it/wp-content/uploads/2021/10/R-2.jpg" alt="elicottero disastro">
-                            <img class="image-carousel" src="https://services.meteored.com/img/article/vajont-60-anni-onda-enorme-scavalca-diga-alpi-1696749292604_1024.jpg" alt="elicottero disastro">
+                            <img class="image-carousel" src="http://www.ertoecasso.it/immagini/vajont/disastro.jpg" alt="elicottero disastro">
                         </Carousel>
                     </div>
                 </div>
@@ -33,8 +33,8 @@
                         <img class="image-carousel rounded-image" src="https://www.rainews.it/cropgd/641x453/dl/img/2023/9/30/1696081167334_Longarone_prima_della_tragediaANSABD.JPG" alt="elicottero disastro">
                     </div>
                     <div class="m-5">
-                        <h1>1955: Le Radici di Longarone </h1>
-                        <p>Longarone, incantevole borgo ai piedi delle montagne, già prima del 1955 respirava la sua storia intrisa di tradizioni e comunità unite. La vita ruotava intorno alle colture, alle serate in piazza, e ai legami familiari. Tuttavia, l'arrivo degli anni '50 portò l'ombra imponente della Diga del Vajont, preludio a una trasformazione che avrebbe ridefinito per sempre il destino di questo idilliaco paesino.</p>
+                        <h1>1955: Le radici di Longarone</h1>
+                        <p>La costruzione della diga iniziò nel 1957, sotto la supervisione dell’ingegner Carlo Semenza che sminui’ fin dall’inizio le paure relative a rischi geologici ed eventi franosi che potevano essere provocati da un intervento di quelle proporzioni sul versante sinistro della montagna. I rilevamenti condotti sul monte Tóc, che in friulano significa “marcio”, non avevano dato esiti incoraggianti ma, nonostante i forti dubbi circa la sicurezza della zona, si scelse di andare ugualmente avanti.</p>
                     </div>
                 </div>
             </section>
@@ -42,7 +42,7 @@
                 <div class="history-paragraph-image">
                     <div class="m-5">
                         <h1>1957: La costruzione della diga</h1>
-                        <p>Il 1957 vede il via alla costruzione della Diga del Vajont, trasformando Longarone in un cantiere frenetico. Mentre la struttura cresce, l'entusiasmo per il progresso si intreccia con crescenti preoccupazioni sulla sicurezza. La comunità assiste con orgoglio alla nascita di un'imponente opera idroelettrica, ma dietro la facciata emergono tensioni e scelte tecniche che avranno conseguenze drammatiche negli anni a venire.</p>
+                        <p>Il 1957 vede il via alla costruzione della Diga del Vajont, trasformando la valle in un cantiere frenetico. La vicenda della costruzione della diga interessa in prima battuta le comunità di Erto e Casso, che per prime sono coinvolte nella questione attraverso l’espropriazione di una parte consistente delle loro terre, gli abitanti dovettero lasciare le loro case e abbandonare le loro terre. In realtà il processo non fu così pacifico, ma la SADE, negli anni, forzando la mano e non incontrando nessun ostacolo dal comune e dallo stato, riuscì a fare sua quella valle.</p>
                     </div>
                     <div class="sibling-image m-5">
                         <VideoEmblem url="https://drive.google.com/file/d/1fgHm8SLvFRMaeXDK7a2SNFGTOekAigdF/preview"/>
@@ -55,8 +55,8 @@
                         <img class="rounded-image" src="https://www.gedistatic.it/content/gnn/img/corrierealpi/2023/09/25/184451229-e711c018-33e7-40d2-86d3-1627d6f8fde2.jpg?webp" alt="elicottero disastro">
                     </div>
                     <div class="m-5">
-                        <h1>1959: Crescita e Sfide</h1>
-                        <p>Il 1959 segna un periodo di crescita accelerata per Longarone, alimentato dalla costruzione della Diga del Vajont. L'espansione economica porta nuove opportunità, ma anche sfide cruciali. La comunità affronta il dilemma tra progresso e preservazione delle radici culturali, mentre emergono preoccupazioni sulla sicurezza e sostenibilità ambientale. Questo capitolo della storia del Vajont evidenzia le tensioni dinamiche tra modernizzazione e la salvaguardia di una identità comunitaria in evoluzione.</p>
+                        <h1>1959: Le prime frane</h1>
+                        <p>Il 22 Marzo 1959 una piccola frana di 3.000.000 m3 di terra cadde nel bacino della diga di Pontesei sollevando un’onda di 20 metri che uccise un operaio. Il 4 Novembre  1959 una piccola frana di solo 800.000 m3 si staccò dalla parete del Toc e finì nella diga, sollevando un’onda di 20 metri che non lasciò vittime. In quell’occasione la montagna si spaccò e sul fronte settentrionale del Toc comparve la famosa M.</p>
                     </div>
                 </div>
             </section>
@@ -64,7 +64,8 @@
             <div class="history-paragraph centered-flex">
                 <div class="m-5">
                     <h1>1963: Una Tragedia Inimmaginabile</h1>
-                    <p>Nella storia del Vajont, uno dei disastri più devastanti della storia italiana, la natura si è scontrata con l'ingegno umano in una tragedia inimmaginabile. Questo racconto esplora gli eventi che hanno portato al crollo della montagna del Vajont nel 1963, provocando una delle peggiori catastrofi della storia moderna. Dalle cause alla devastazione e alle conseguenze, questa storia è un ricordo doloroso delle vite perdute e delle lezioni apprese dall'errore umano.</p>
+                    <p>Il 9 ottobre 1963  crolla la montagna del Vajont.
+                        Uno dei disastri più devastanti della storia italiana, la natura si è scontrata con l'ingegno umano in una tragedia inimmaginabile. Dalle cause, alla devastazione e alle conseguenze, questa storia è un ricordo doloroso delle vite perdute e delle lezioni apprese dall'errore umano.</p>
                 </div>
                 <div class="carousel-container m-5">
                     <Carousel swiping={false} autoplay autoplayDuration={2000}>

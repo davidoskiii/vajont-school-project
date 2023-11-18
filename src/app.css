@@ -356,6 +356,9 @@ a {
   font-size:6em;
   margin-bottom:0
 }
+.mb-70 {
+  margin-bottom: 70px;
+}
 .carousel-container {
   width:  600px;
 }
@@ -364,6 +367,7 @@ a {
   width: 100%;
   height: auto;
   object-fit: cover;
+  box-shadow:#959da533 0 8px 24px;
 }
 
 .history-paragraph-image {
@@ -380,6 +384,14 @@ a {
 .rounded-image {
   width: 600px;
   border-radius: 10px;
+  box-shadow:#959da533 0 8px 24px;
+}
+
+.rounded-image-400 {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow:#959da533 0 8px 24px;
 }
 
 .start-history {

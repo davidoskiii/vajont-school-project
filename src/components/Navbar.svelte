@@ -9,10 +9,11 @@
             <h1 class="logo"><a class="logo" href="/">Diga del Vajont</a></h1>
             <ul class="links">
                 <!-- svelte-ignore a11y-missing-attribute -->
+                <li><a use:scrollTo={{ref: 'date', offset: -55, duration: 2000}}>Date</a></li>
+                <!-- svelte-ignore a11y-missing-attribute -->
                 <li><a use:scrollTo={{ref: 'storia', offset: -55, duration: 2000}}>Storia</a></li>
                 <!-- svelte-ignore a11y-missing-attribute -->
-                <li><a use:scrollTo={{ref: 'causa', offset: -55, duration: 2000}}>Causa</a></li>
-                <li><a href="/contact">Contattami</a></li>
+                <li><a use:scrollTo={{ref: 'testimonianze', offset: -55, duration: 2000}}>Testimonianze</a></li>
             </ul>
             <div>
                 <a href="https://it.wikipedia.org/wiki/Diga_del_Vajont">

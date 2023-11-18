@@ -59,7 +59,7 @@
         border-style: solid;
         border-width: 10px 10px 10px 10px;
         border-color: #edf0f1;
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.5);
     }
     .image-div-section {
         display: flex;
