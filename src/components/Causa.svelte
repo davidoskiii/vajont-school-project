@@ -20,7 +20,7 @@
                     </div>
                     <div class="m-5">
                         <h1>La storia della diga</h1>
-                        <p>Negli anni ‘40 la Società Adriatica per l’Energia Elettrica, ebbe l’idea di creare un bacino idroelettrico tra I comuni di Erto e Casso in provincia di Pordenone. Il progetto era quello di sfruttare la forza dell’acqua con la realizzazione di quella che all’epoca, con i suoi 265 metri di altezza, fu definitiva “la diga più alta del mondo”. Il progetto della diga del Vajont venne a far parte del cosiddetto “Grande Vajont”, un complesso che riuniva e collegava diversi bacini idroelettrici nelle valli circostanti. Fu ideato e realizzato dalla SAD societa’ che sarebbe in seguito divenuta proprietà dell’Ente Nazionale Energia Elettrica.</p>
+                        <p>Negli anni ‘40 la Società Adriatica per l’Energia Elettrica, ebbe l’idea di creare un bacino idroelettrico tra I comuni di Erto e Casso in provincia di Pordenone. Il progetto era quello di sfruttare la forza dell’acqua con la realizzazione di quella che all’epoca, con i suoi 265 metri di altezza, fu definitiva “la diga più alta del mondo”. Il progetto della diga del Vajont venne a far parte del cosiddetto “Grande Vajont”, un complesso che riuniva e collegava diversi bacini idroelettrici nelle valli circostanti. Fu ideato e realizzato dalla SADE societa’ che sarebbe in seguito divenuta proprietà dell’Ente Nazionale Energia Elettrica.</p>
                     </div>
                 </div>
             </section>
@@ -28,7 +28,7 @@
                 <div class="history-paragraph-image">
                     <div class="m-5">
                         <h1>Scelta sbagliata del territorio</h1>
-                        <p>Entra nel cuore di una delle pagine più oscure della storia italiana. Scopri la narrazione completa del disastro del Vajont, una tragedia che ha sconvolto il mondo nel 1963. Attraverso una sequenza cronologica dettagliata e testimonianze dirette, questa sezione rivelerà gli eventi che hanno portato a una catastrofe senza precedenti, gettando luce sui protagonisti, le decisioni cruciali e le conseguenze durature che hanno segnato questa epocale tragedia. he causarono il disastro, e come coloro che scoprirono ciò venivano silenziati, causando l'evitabile tragedia. Daremo uno sguardo alla formazione del terreno, della</p>
+                        <p>Entra nel cuore di una delle pagine più oscure della storia italiana. Scopri la narrazione completa del disastro del Vajont, una tragedia che ha sconvolto il mondo nel 1963. Attraverso una sequenza cronologica dettagliata e testimonianze dirette, questa sezione rivelerà gli eventi che hanno portato a una catastrofe senza precedenti, gettando luce sui protagonisti sulle decisioni cruciali e sulle conseguenze durature che hanno segnato questa epocale tragedia. Inoltre le persone che vennero a conoscenza dell'imbroglio furono silenziate lasciando accadere l'inevitabile.</p>
                     </div>
                     <div class="sibling-image m-5">
                         <img class="image-carousel rounded-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Monte_Toc.jpg/1280px-Monte_Toc.jpg" alt="elicottero disastro">
@@ -49,7 +49,7 @@
                 <div class="history-paragraph-image">
                     <div class="m-5">
                         <h1>Paleofrana e analisi geologica</h1>
-                        <p>Prima della grande frana ci furono già dei segnali inquietanti: nel 1959, 3 milioni di m3 di roccia franarono nel bacino di Pontesei, uno dei bacini del sistema del Grande Vajont; non ci furono danni ma si accese il campanello d’allarme degli addetti ai lavori e non solo.
+                        <p>Prima della grande frana ci furono già dei segnali inquietanti: nel 1959, 3 milioni di metri quadrati di roccia franarono nel bacino di Pontesei, uno dei bacini del sistema del Grande Vajont; non ci furono danni ma si accese il campanello d’allarme degli addetti ai lavori e non solo.
                             Il campanello di allarme divenne ancor più forte con il 4 novembre del 1960 quando ci fu un’altra frana piu’ piccola proprio nel bacino della diga del Vajont. Non ci furono danni o vittime perché l’acqua non superò la diga ma da quel momento lo stesso Carlo Semenza cominciò ad essere seriamente preoccupato.
                             Sul monte Tóc si aprì la lunga spaccatura a forma di “M” dalla quale si muoverà il tremendo crollo del 1963.  
                             A questo punto entrano in scena due dei personaggi principali della storia: il geologo Leopold Muller e Edoardo Semenza (figlio di Carlo Semenza) che avevano un’interpretazione diversa del tipo di frana e del tipo di pericolo.

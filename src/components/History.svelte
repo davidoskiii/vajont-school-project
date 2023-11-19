@@ -34,7 +34,7 @@
                     </div>
                     <div class="m-5">
                         <h1>1955: Le radici di Longarone</h1>
-                        <p>La costruzione della diga iniziò nel 1957, sotto la supervisione dell’ingegner Carlo Semenza che sminui’ fin dall’inizio le paure relative a rischi geologici ed eventi franosi che potevano essere provocati da un intervento di quelle proporzioni sul versante sinistro della montagna. I rilevamenti condotti sul monte Tóc, che in friulano significa “marcio”, non avevano dato esiti incoraggianti ma, nonostante i forti dubbi circa la sicurezza della zona, si scelse di andare ugualmente avanti.</p>
+                        <p>La costruzione della diga iniziò nel 1957, sotto la supervisione dell’ingegner Carlo Semenza che sminuì fin dall'inizio le paure relative a rischi geologici ed eventi franosi che potevano essere provocati da un intervento di quelle proporzioni sul versante sinistro della montagna. I rilevamenti condotti sul monte Tóc, che in friulano significa “marcio”, non avevano dato esiti incoraggianti ma, nonostante i forti dubbi circa la sicurezza della zona, si scelse di andare ugualmente avanti.</p>
                     </div>
                 </div>
             </section>
